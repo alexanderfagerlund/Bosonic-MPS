@@ -1,0 +1,242 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 14.0' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[      8148,        233]
+NotebookOptionsPosition[      7873,        221]
+NotebookOutlinePosition[      8195,        235]
+CellTagsIndexPosition[      8152,        232]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell[BoxData[
+ RowBox[{"{", 
+  RowBox[{
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+       FractionBox["21", "2"], ",", "1.968670405079496`"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       FractionBox["23", "2"], ",", "1.8202992737185435`"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       FractionBox["25", "2"], ",", "1.4027253543412996`"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       FractionBox["27", "2"], ",", "1.100178881279228`"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       FractionBox["29", "2"], ",", "1.0383934731127311`"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       FractionBox["31", "2"], ",", "1.181677233807869`"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       FractionBox["33", "2"], ",", "1.4036236158848805`"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       FractionBox["35", "2"], ",", "1.5577836022395792`"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       FractionBox["37", "2"], ",", "1.5752244116648595`"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       FractionBox["39", "2"], ",", "1.494295124731178`"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       FractionBox["41", "2"], ",", "1.3986394441545695`"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       FractionBox["43", "2"], ",", "1.3474294392697923`"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       FractionBox["45", "2"], ",", "1.3509234174692246`"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       FractionBox["47", "2"], ",", "1.3827793584534824`"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       FractionBox["49", "2"], ",", "1.4069508878474126`"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       FractionBox["51", "2"], ",", "1.4000476760132985`"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       FractionBox["53", "2"], ",", "1.3576232448072996`"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       FractionBox["55", "2"], ",", "1.2871020308894099`"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       FractionBox["57", "2"], ",", "1.1978927340568677`"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       FractionBox["59", "2"], ",", "1.0956008732047047`"}], "}"}]}], "}"}], 
+   ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"11", ",", "1.8989809342887518`"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"12", ",", "1.6231115895681902`"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"13", ",", "1.259209719683655`"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"14", ",", "1.0707572583428067`"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"15", ",", "1.1068512698892983`"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"16", ",", "1.2880265418864323`"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"17", ",", "1.477680864231756`"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"18", ",", "1.566181028999914`"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"19", ",", "1.5361795802494904`"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"20", ",", "1.4480615457858261`"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"21", ",", "1.373847298932576`"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"22", ",", "1.349123489305905`"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"23", ",", "1.3663897076572307`"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"24", ",", "1.3945294074644266`"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"25", ",", "1.4035913247548106`"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"26", ",", "1.379379363374502`"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"27", ",", "1.3232332701189662`"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"28", ",", "1.2435593979116342`"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"29", ",", "1.1479225721463182`"}], "}"}]}], "}"}], ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+       FractionBox["23", "2"], ",", "1.758852881827241`"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       FractionBox["25", "2"], ",", "1.4604618411298316`"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       FractionBox["27", "2"], ",", "1.1834816203721477`"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       FractionBox["29", "2"], ",", "1.0978586208622039`"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       FractionBox["31", "2"], ",", "1.1959064603853002`"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       FractionBox["33", "2"], ",", "1.3741117438196784`"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       FractionBox["35", "2"], ",", "1.5127529818214003`"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       FractionBox["37", "2"], ",", "1.5470295836761543`"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       FractionBox["39", "2"], ",", "1.4934940947115922`"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       FractionBox["41", "2"], ",", "1.4148616891381176`"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       FractionBox["43", "2"], ",", "1.3647525359831747`"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       FractionBox["45", "2"], ",", "1.35881446306339`"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       FractionBox["47", "2"], ",", "1.3795171597882045`"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       FractionBox["49", "2"], ",", "1.3973360580451044`"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       FractionBox["51", "2"], ",", "1.3901544451481138`"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       FractionBox["53", "2"], ",", "1.3508916522754655`"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       FractionBox["55", "2"], ",", "1.28381478326593`"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{
+       FractionBox["57", "2"], ",", "1.1966533055957886`"}], "}"}]}], "}"}], 
+   ",", 
+   RowBox[{"{", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{"12", ",", "1.6162603777742968`"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"13", ",", "1.3522579314466106`"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"14", ",", "1.166588391974563`"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"15", ",", "1.157266998905457`"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"16", ",", "1.2790544865686169`"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"17", ",", "1.4284253207423079`"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"18", ",", "1.5169812726455536`"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"19", ",", "1.5162216719590402`"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"20", ",", "1.457960014396198`"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"21", ",", "1.3961771031992785`"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"22", ",", "1.3661157395283097`"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"23", ",", "1.3696894879532597`"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"24", ",", "1.3860654393763354`"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"25", ",", "1.3905955916281947`"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"26", ",", "1.3682460954431408`"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"27", ",", "1.316499904893311`"}], "}"}], ",", 
+     RowBox[{"{", 
+      RowBox[{"28", ",", "1.2405105618189154`"}], "}"}]}], "}"}]}], 
+  "}"}]], "Input",ExpressionUUID->"2e3ca846-543c-492b-a2f3-fdd4099070bc"]
+},
+FrontEndVersion->"14.0 for Mac OS X ARM (64-bit) (December 12, 2023)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"16b1a8b1-f11e-40cb-b7f8-1f1eb03a1f22"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 7311, 199, 70, "Input",ExpressionUUID->"2e3ca846-543c-492b-a2f3-fdd4099070bc"]
+}
+]
+*)
+
+(* End of internal cache information *)
